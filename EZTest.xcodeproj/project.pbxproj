@@ -15,6 +15,7 @@
 		7F8CC9B91BEDF88300563902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8CC9B71BEDF88300563902 /* LaunchScreen.storyboard */; };
 		7F8CC9C41BEDF88300563902 /* EZTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9C31BEDF88300563902 /* EZTestTests.m */; };
 		7F8CC9CF1BEDF88300563902 /* EZTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9CE1BEDF88300563902 /* EZTestUITests.m */; };
+		7F8CC9DE1BEDF8AE00563902 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9DD1BEDF8AE00563902 /* CircleView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7F8CC9CA1BEDF88300563902 /* EZTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8CC9CE1BEDF88300563902 /* EZTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZTestUITests.m; sourceTree = "<group>"; };
 		7F8CC9D01BEDF88300563902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8CC9DC1BEDF8AE00563902 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		7F8CC9DD1BEDF8AE00563902 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				7F8CC9B51BEDF88300563902 /* Assets.xcassets */,
 				7F8CC9B71BEDF88300563902 /* LaunchScreen.storyboard */,
 				7F8CC9BA1BEDF88300563902 /* Info.plist */,
+				7F8CC9DC1BEDF8AE00563902 /* CircleView.h */,
+				7F8CC9DD1BEDF8AE00563902 /* CircleView.m */,
 				7F8CC9A91BEDF88300563902 /* Supporting Files */,
 			);
 			path = EZTest;
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8CC9DE1BEDF8AE00563902 /* CircleView.m in Sources */,
 				7F8CC9B11BEDF88300563902 /* ViewController.m in Sources */,
 				7F8CC9AE1BEDF88300563902 /* AppDelegate.m in Sources */,
 				7F8CC9AB1BEDF88300563902 /* main.m in Sources */,

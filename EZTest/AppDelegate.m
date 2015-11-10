@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CircleView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    CGRect firstFrame = self.window.bounds;
+    CircleView *firstView = [[CircleView alloc] initWithFrame:firstFrame];
+    
+    firstView.backgroundColor = [UIColor redColor];
+    
+    [self.window addSubview:firstView];
+//    
+//    CGRect secondFrame = CGRectMake(20, 30, 50, 50);
+//    
+//    CircleView *secondView = [[CircleView alloc]initWithFrame:secondFrame];
+//    
+//    secondView.backgroundColor = [UIColor blueColor];
+//    
+//    [firstView addSubview:secondView];
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [self.window makeKeyAndVisible];
+    
+    
+    // fix xcode 7.0 rootViewController issue
+    UIViewController *vc = [[UIViewController alloc]initWithNibName:nil bundle:nil];
+    self.window.rootViewController = vc;
+    
+
     return YES;
 }
 
