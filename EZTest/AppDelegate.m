@@ -24,7 +24,7 @@
     CGRect firstFrame = self.window.bounds;
     CircleView *firstView = [[CircleView alloc] initWithFrame:firstFrame];
     
-    firstView.backgroundColor = [UIColor redColor];
+    firstView.backgroundColor = [UIColor clearColor];
     
     [self.window addSubview:firstView];
 //    
