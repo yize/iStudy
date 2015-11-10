@@ -31,6 +31,18 @@
     path.lineWidth = 10.0;
     [[UIColor lightGrayColor]setStroke];
     [path stroke];
+    
+    UIImage *logoImage = [UIImage imageNamed:@"logo.png"];
+    
+    CGContextRef currentContext = UIGraphicsGetCurrentContext();
+    
+    CGContextSaveGState(currentContext);
+    
+    CGContextSetShadow(currentContext, CGSizeMake(4, 7), 3);
+    
+    [logoImage drawInRect:CGRectMake(0, 0, 50, 50)];
+    
+    CGContextRestoreGState(currentContext);
 }
 
 @end

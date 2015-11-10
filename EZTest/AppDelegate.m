@@ -27,7 +27,7 @@
     firstView.backgroundColor = [UIColor clearColor];
     
     [self.window addSubview:firstView];
-//    
+//
 //    CGRect secondFrame = CGRectMake(20, 30, 50, 50);
 //    
 //    CircleView *secondView = [[CircleView alloc]initWithFrame:secondFrame];
@@ -39,6 +39,9 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     [self.window makeKeyAndVisible];
+    
+
+
     
     
     // fix xcode 7.0 rootViewController issue
