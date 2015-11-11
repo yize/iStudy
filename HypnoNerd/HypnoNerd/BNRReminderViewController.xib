@@ -17,11 +17,12 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="QuW-5m-c0l">
-                    <rect key="frame" x="0.0" y="77" width="414" height="339"/>
+                    <rect key="frame" x="0.0" y="84" width="414" height="339"/>
                     <animations/>
                     <date key="date" timeIntervalSinceReferenceDate="468934187.05157501">
                         <!--2015-11-11 11:29:47 +0000-->
                     </date>
+                    <locale key="locale" localeIdentifier="zh-Hans"/>
                 </datePicker>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tj-wN-cI5">
                     <rect key="frame" x="166" y="535" width="82" height="30"/>
@@ -34,7 +35,7 @@
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="372" y="193"/>
         </view>
     </objects>
