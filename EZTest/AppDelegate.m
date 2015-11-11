@@ -27,17 +27,26 @@
     CGRect bigRect = screenRect;
     
     bigRect.size.width *=2.0;
-    bigRect.size.height *=2.0;
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
     
-    CircleView *firstView = [[CircleView alloc] initWithFrame:bigRect];
+    CircleView *firstView = [[CircleView alloc] initWithFrame:screenRect];
+    
     
     firstView.backgroundColor = [UIColor clearColor];
     
     [scrollView addSubview:firstView];
     
+
+    screenRect.origin.x +=screenRect.size.width;
+    CircleView *secondView = [[CircleView alloc]initWithFrame:screenRect];
+    
+    [scrollView addSubview:secondView];
+    
+    
     scrollView.contentSize = bigRect.size;
+    
+    scrollView.pagingEnabled = YES;
 
     [vc.view addSubview:scrollView];
     
