@@ -23,12 +23,23 @@
     
     UIViewController *vc = [[UIViewController alloc]init];
     
-    CGRect firstFrame = self.window.bounds;
-    CircleView *firstView = [[CircleView alloc] initWithFrame:firstFrame];
+    CGRect screenRect = self.window.bounds;
+    CGRect bigRect = screenRect;
+    
+    bigRect.size.width *=2.0;
+    bigRect.size.height *=2.0;
+    
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
+    
+    CircleView *firstView = [[CircleView alloc] initWithFrame:bigRect];
     
     firstView.backgroundColor = [UIColor clearColor];
+    
+    [scrollView addSubview:firstView];
+    
+    scrollView.contentSize = bigRect.size;
 
-    [vc.view addSubview:firstView];
+    [vc.view addSubview:scrollView];
     
     self.window.rootViewController = vc;
     self.window.backgroundColor = [UIColor whiteColor];
