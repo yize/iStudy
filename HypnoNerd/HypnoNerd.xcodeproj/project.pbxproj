@@ -114,15 +114,15 @@
 			children = (
 				7F5E4FC21BF344ED00B6CA22 /* AppDelegate.h */,
 				7F5E4FC31BF344ED00B6CA22 /* AppDelegate.m */,
-				7F5E4FF81BF3590B00B6CA22 /* BNRReminderViewController.h */,
-				7F5E4FFB1BF35A5C00B6CA22 /* BNRReminderViewController.xib */,
-				7F5E4FF91BF3590B00B6CA22 /* BNRReminderViewController.m */,
 				7F5E4FF21BF354B700B6CA22 /* CircleView.h */,
 				7F5E4FF31BF354B700B6CA22 /* CircleView.m */,
-				7F5E4FF51BF354F400B6CA22 /* BNRHpnosisViewController.h */,
-				7F5E4FF61BF354F400B6CA22 /* BNRHpnosisViewController.m */,
 				7F5E4FC51BF344ED00B6CA22 /* ViewController.h */,
 				7F5E4FC61BF344ED00B6CA22 /* ViewController.m */,
+				7F5E4FF51BF354F400B6CA22 /* BNRHpnosisViewController.h */,
+				7F5E4FF61BF354F400B6CA22 /* BNRHpnosisViewController.m */,
+				7F5E4FF81BF3590B00B6CA22 /* BNRReminderViewController.h */,
+				7F5E4FF91BF3590B00B6CA22 /* BNRReminderViewController.m */,
+				7F5E4FFB1BF35A5C00B6CA22 /* BNRReminderViewController.xib */,
 				7F5E4FC81BF344ED00B6CA22 /* Main.storyboard */,
 				7F5E4FCB1BF344ED00B6CA22 /* Assets.xcassets */,
 				7F5E4FCD1BF344ED00B6CA22 /* LaunchScreen.storyboard */,
@@ -518,6 +518,7 @@
 				7F5E4FEB1BF344ED00B6CA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F5E4FEC1BF344ED00B6CA22 /* Build configuration list for PBXNativeTarget "HypnoNerdTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				7F5E4FEE1BF344ED00B6CA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F5E4FEF1BF344ED00B6CA22 /* Build configuration list for PBXNativeTarget "HypnoNerdUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				7F5E4FF11BF344ED00B6CA22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

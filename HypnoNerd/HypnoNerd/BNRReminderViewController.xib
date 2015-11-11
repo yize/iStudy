@@ -28,7 +28,7 @@
                     <animations/>
                     <state key="normal" title="Remind me!"/>
                     <connections>
-                        <action selector="addReminder:" destination="-1" eventType="touchUpInside" id="c80-TB-ioj"/>
+                        <action selector="addReminder:" destination="-1" eventType="touchUpInside" id="ssY-4b-oWT"/>
                     </connections>
                 </button>
             </subviews>
