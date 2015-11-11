@@ -59,6 +59,11 @@
     return self;
 }
 
+- (void)setCircleColor:(UIColor *)circleColor{
+    _circleColor = circleColor;
+    [self setNeedsDisplay];
+}
+
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     NSLog(@"%@ was touched",self);
     

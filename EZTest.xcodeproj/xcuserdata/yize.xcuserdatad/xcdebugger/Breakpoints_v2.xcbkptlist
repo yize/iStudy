@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EZTest/CircleView.m"
-            timestampString = "468904180.383321"
+            timestampString = "468913421.775873"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-initWithFrame:"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-setCircleColor:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
