@@ -15,6 +15,10 @@
 		7F5E4FCF1BF344ED00B6CA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5E4FCD1BF344ED00B6CA22 /* LaunchScreen.storyboard */; };
 		7F5E4FDA1BF344ED00B6CA22 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4FD91BF344ED00B6CA22 /* HypnoNerdTests.m */; };
 		7F5E4FE51BF344ED00B6CA22 /* HypnoNerdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4FE41BF344ED00B6CA22 /* HypnoNerdUITests.m */; };
+		7F5E4FF41BF354B700B6CA22 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4FF31BF354B700B6CA22 /* CircleView.m */; };
+		7F5E4FF71BF354F400B6CA22 /* BNRHpnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4FF61BF354F400B6CA22 /* BNRHpnosisViewController.m */; };
+		7F5E4FFA1BF3590B00B6CA22 /* BNRReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5E4FF91BF3590B00B6CA22 /* BNRReminderViewController.m */; };
+		7F5E4FFC1BF35A5C00B6CA22 /* BNRReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F5E4FFB1BF35A5C00B6CA22 /* BNRReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		7F5E4FE01BF344ED00B6CA22 /* HypnoNerdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnoNerdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5E4FE41BF344ED00B6CA22 /* HypnoNerdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdUITests.m; sourceTree = "<group>"; };
 		7F5E4FE61BF344ED00B6CA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5E4FF21BF354B700B6CA22 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		7F5E4FF31BF354B700B6CA22 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		7F5E4FF51BF354F400B6CA22 /* BNRHpnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHpnosisViewController.h; sourceTree = "<group>"; };
+		7F5E4FF61BF354F400B6CA22 /* BNRHpnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHpnosisViewController.m; sourceTree = "<group>"; };
+		7F5E4FF81BF3590B00B6CA22 /* BNRReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRReminderViewController.h; sourceTree = "<group>"; };
+		7F5E4FF91BF3590B00B6CA22 /* BNRReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRReminderViewController.m; sourceTree = "<group>"; };
+		7F5E4FFB1BF35A5C00B6CA22 /* BNRReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +114,13 @@
 			children = (
 				7F5E4FC21BF344ED00B6CA22 /* AppDelegate.h */,
 				7F5E4FC31BF344ED00B6CA22 /* AppDelegate.m */,
+				7F5E4FF81BF3590B00B6CA22 /* BNRReminderViewController.h */,
+				7F5E4FFB1BF35A5C00B6CA22 /* BNRReminderViewController.xib */,
+				7F5E4FF91BF3590B00B6CA22 /* BNRReminderViewController.m */,
+				7F5E4FF21BF354B700B6CA22 /* CircleView.h */,
+				7F5E4FF31BF354B700B6CA22 /* CircleView.m */,
+				7F5E4FF51BF354F400B6CA22 /* BNRHpnosisViewController.h */,
+				7F5E4FF61BF354F400B6CA22 /* BNRHpnosisViewController.m */,
 				7F5E4FC51BF344ED00B6CA22 /* ViewController.h */,
 				7F5E4FC61BF344ED00B6CA22 /* ViewController.m */,
 				7F5E4FC81BF344ED00B6CA22 /* Main.storyboard */,
@@ -244,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F5E4FCF1BF344ED00B6CA22 /* LaunchScreen.storyboard in Resources */,
+				7F5E4FFC1BF35A5C00B6CA22 /* BNRReminderViewController.xib in Resources */,
 				7F5E4FCC1BF344ED00B6CA22 /* Assets.xcassets in Resources */,
 				7F5E4FCA1BF344ED00B6CA22 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F5E4FF41BF354B700B6CA22 /* CircleView.m in Sources */,
+				7F5E4FFA1BF3590B00B6CA22 /* BNRReminderViewController.m in Sources */,
 				7F5E4FC71BF344ED00B6CA22 /* ViewController.m in Sources */,
 				7F5E4FC41BF344ED00B6CA22 /* AppDelegate.m in Sources */,
+				7F5E4FF71BF354F400B6CA22 /* BNRHpnosisViewController.m in Sources */,
 				7F5E4FC11BF344ED00B6CA22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
