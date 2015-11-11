@@ -16,7 +16,7 @@
 		7F8CC9C41BEDF88300563902 /* EZTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9C31BEDF88300563902 /* EZTestTests.m */; };
 		7F8CC9CF1BEDF88300563902 /* EZTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9CE1BEDF88300563902 /* EZTestUITests.m */; };
 		7F8CC9DE1BEDF8AE00563902 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8CC9DD1BEDF8AE00563902 /* CircleView.m */; settings = {ASSET_TAGS = (); }; };
-		7F8CC9E81BF2212500563902 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8CC9E71BF2212500563902 /* logo.png */; settings = {ASSET_TAGS = (); }; };
+		7FBF69B51BF3387800F3ABDD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FBF69B41BF3387800F3ABDD /* logo.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,7 @@
 		7F8CC9D01BEDF88300563902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F8CC9DC1BEDF8AE00563902 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
 		7F8CC9DD1BEDF8AE00563902 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
-		7F8CC9E71BF2212500563902 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../../received/logo.png; sourceTree = "<group>"; };
+		7FBF69B41BF3387800F3ABDD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +106,12 @@
 		7F8CC9A81BEDF88300563902 /* EZTest */ = {
 			isa = PBXGroup;
 			children = (
+				7FBF69B31BF3377100F3ABDD /* images */,
 				7F8CC9AC1BEDF88300563902 /* AppDelegate.h */,
 				7F8CC9AD1BEDF88300563902 /* AppDelegate.m */,
 				7F8CC9AF1BEDF88300563902 /* ViewController.h */,
 				7F8CC9B01BEDF88300563902 /* ViewController.m */,
 				7F8CC9B21BEDF88300563902 /* Main.storyboard */,
-				7F8CC9E71BF2212500563902 /* logo.png */,
 				7F8CC9B51BEDF88300563902 /* Assets.xcassets */,
 				7F8CC9B71BEDF88300563902 /* LaunchScreen.storyboard */,
 				7F8CC9BA1BEDF88300563902 /* Info.plist */,
@@ -146,6 +146,14 @@
 				7F8CC9D01BEDF88300563902 /* Info.plist */,
 			);
 			path = EZTestUITests;
+			sourceTree = "<group>";
+		};
+		7FBF69B31BF3377100F3ABDD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7FBF69B41BF3387800F3ABDD /* logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FBF69B51BF3387800F3ABDD /* logo.png in Resources */,
 				7F8CC9B91BEDF88300563902 /* LaunchScreen.storyboard in Resources */,
-				7F8CC9E81BF2212500563902 /* logo.png in Resources */,
 				7F8CC9B61BEDF88300563902 /* Assets.xcassets in Resources */,
 				7F8CC9B41BEDF88300563902 /* Main.storyboard in Resources */,
 			);
